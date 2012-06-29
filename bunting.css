@@ -1,0 +1,16 @@
+.epic-bunting {
+  width:100%;
+  position:fixed;
+  left:0;
+  top:65px;
+  overflow:visible;
+}
+
+.epic-bunting span {
+  background-image: url('chrome-extension://__MSG_@@extension_id__/images/bunting.png');
+  background-color:transparent;
+  background-repeat:repeat-x;
+  width:99.9%;
+  position:absolute;
+  height:60px;
+}

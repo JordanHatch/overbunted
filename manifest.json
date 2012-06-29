@@ -1,0 +1,16 @@
+{
+  "name": "Overbunted",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Adds bunting to every page on GOV.UK",
+  "content_scripts": [
+    {
+      "matches": ["https://www.gov.uk/*"],
+      "css": ["bunting.css"],
+      "js": ["jquery.js", "overbunted.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "images/bunting.png"
+  ]
+}
