@@ -1,9 +1,31 @@
+.related {
+   margin-top: 2em;
+}
+
+#content {
+  margin-top: 1.5em;
+}
+
+#global-header {
+  position: relative;
+}
+
+#global-breadcrumb {
+  position: relative;
+  background: none !important;
+}
+#user-satisfaction-survey-container {
+  display: none;
+}
+
 .epic-bunting {
   width:100%;
-  position:fixed;
+  position:absolute;
+  z-index: 0;
   left:0;
-  top:65px;
+  top: 100%;
   overflow:visible;
+  opacity: 0.8;
 }
 
 .epic-bunting span {
@@ -12,5 +34,5 @@
   background-repeat:repeat-x;
   width:99.9%;
   position:absolute;
-  height:60px;
+  height:80px;
 }

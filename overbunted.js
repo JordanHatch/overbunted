@@ -1,3 +1,3 @@
 $( function() {
-  $('<div class="epic-bunting"><span></span></div>').prependTo('section#content');
+  $('<div class="epic-bunting"><span></span></div>').appendTo('#global-header');
 });
